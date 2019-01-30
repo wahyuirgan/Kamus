@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Kamus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="kosakata">Kosakata</string>
+    <string name="deskripsi">Deskripsinya</string>
+    <string name="cari">Cari</string>
+    <string name="search">Search</string>
+    <string name="eng_ina">English-Indonesia</string>
+    <string name="ina_eng">Indonesia-English</string>
+    <string name="loading">Loading . . .</string>
+    <string name="kamus_pref">kamus preference</string>
+    <string name="eng_to_ina">eng to ina</string>
+    <string name="ina_to_eng">ina to eng</string>
+    <string name="inaeng">Indonesia to English</string>
+    <string name="engina">English to Indonesia</string>
+</resources>

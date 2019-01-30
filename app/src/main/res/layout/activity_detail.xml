@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="top.technopedia.myapplicationkamus.DetailActivity"
+    android:background="@color/c1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/blue1"
+        android:orientation="vertical"
+        android:padding="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:padding="6dp"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            tools:text="English to Indonesia" />
+
+        <TextView
+            android:id="@+id/tvDetailKosakata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/putih"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:text="Kosakata" />
+
+        <TextView
+            android:id="@+id/tvDetailArti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/putih"
+            android:textSize="16sp"
+            tools:text="Arti" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
